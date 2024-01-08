@@ -7,6 +7,10 @@ hetzner:
 
 # Custom values
 
+certManager:
+  namespace: ix-cert-manager
+  serviceAccountName: cert-manager-certmanager
+
 namespace: ix-cert-manager
 
 global:
