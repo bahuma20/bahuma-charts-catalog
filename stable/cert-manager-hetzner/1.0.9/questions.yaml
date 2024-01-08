@@ -44,7 +44,7 @@ questions:
             type: boolean
             default: false
   - variable: groupName
-    group: Configuration
+    group: App Configuration
     label: "Group name"
     description: "Your group name"
     schema:
@@ -52,7 +52,7 @@ questions:
       required: true
       default: "acme.yourdomain.tld"
   - variable: email
-    group: Configuration
+    group: App Configuration
     label: "E-Mail"
     description: "Your email"
     schema:
@@ -60,7 +60,7 @@ questions:
       required: true
       default: "mail@example.com"
   - variable: hetzner
-    group: Configuration
+    group: App Configuration
     label: Hetzner Configuration
     schema:
       additional_attrs: true
