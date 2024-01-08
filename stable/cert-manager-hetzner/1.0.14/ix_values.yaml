@@ -1,10 +1,18 @@
+# App specific
 groupName: ""
 email: ""
 
 hetzner:
   apiKey: ""
 
-######
+# Custom values
+
+namespace: ix-cert-manager
+
+global:
+  namespace: ix-cert-manager
+
+# Copied over stuff starts here
 
 image:
   repository: tccr.io/tccr/alpine
