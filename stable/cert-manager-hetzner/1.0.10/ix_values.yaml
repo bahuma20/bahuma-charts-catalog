@@ -1,3 +1,23 @@
+groupName: ""
+email: ""
+
+hetzner:
+  apiKey: ""
+
+namespace: ix-cert-manager
+
+global:
+  namespace: ix-cert-manager
+
+secret:
+  hetzner-secret:
+    enabled: true
+    type: Opaque
+    data:
+      api-key: {{ .Values.hetzner.apiKey | b64enc }}
+
+######
+
 image:
   repository: tccr.io/tccr/alpine
   pullPolicy: IfNotPresent
@@ -19,13 +39,7 @@ portal:
     enabled: false
 
 operator:
-  register: true
-
-groupName: ""
-email: ""
-
-hetzner:
-  apiKey: ""
+  register: false
 
 metrics:
   main:

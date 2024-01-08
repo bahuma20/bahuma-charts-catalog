@@ -1,4 +1,4 @@
-IPTV service providing streaming, playlist, search engine and epg.
+Cluster issuer for cert-manager with Hetzner DNS
 
 This App is supplied by TrueCharts, for more information visit the manual: [https://truecharts.org/charts/stable/cert-manager-hetzner](https://truecharts.org/charts/stable/cert-manager-hetzner)
 
