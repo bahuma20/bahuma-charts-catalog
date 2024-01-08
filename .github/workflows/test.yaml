@@ -50,7 +50,7 @@ jobs:
       - name: Merge staging into main
         shell: bash
         run: |
-          cd "/home/runner/work/bahuma-charts-catalog/catalog/"
+          cd "/home/runner/work/bahuma-charts-catalog/bahuma-charts-catalog/"
           git config user.name "BahumaCharts-Bot"
           git config user.email "bot@charts.bahuma.io"
           git add catalog.json || echo "Adding catalog.json failed"
