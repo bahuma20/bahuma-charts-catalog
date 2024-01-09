@@ -1,5 +1,4 @@
 # App specific
-groupName: ""
 email: ""
 
 hetzner:
@@ -7,6 +6,7 @@ hetzner:
 
 # Custom values
 cert-manager-webhook-hetzner:
+  groupName: ""
   namespace: ix-cert-manager
   certManager:
     namespace: ix-cert-manager

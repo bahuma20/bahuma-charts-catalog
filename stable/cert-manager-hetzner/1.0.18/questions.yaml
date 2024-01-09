@@ -43,14 +43,21 @@ questions:
           schema:
             type: boolean
             default: false
-  - variable: groupName
+  - variable: cert-manager-webhook-hetzner
     group: App Configuration
-    label: "Group name"
-    description: "Your group name"
+    label: Cert Manager Webhook Hetzner Configuration
     schema:
-      type: string
-      required: true
-      default: "acme.yourdomain.tld"
+      additional_attrs: true
+      type: dict
+      attrs:
+        - variable: groupName
+          group: App Configuration
+          label: "Group name"
+          description: "Your group name"
+          schema:
+            type: string
+            required: true
+            default: "acme.yourdomain.tld"
   - variable: email
     group: App Configuration
     label: "E-Mail"
