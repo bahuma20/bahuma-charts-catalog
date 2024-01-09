@@ -1,0 +1,33 @@
+# Allow the service account `cert-manager-hetzner-certmanagerwebhookhetzner` in the `ix-cert-manager-hetzner`
+# to access the secret `hetzner-secret` in the `ix-cert-manager` namespace
+apiVersion: rbac.authorization.k8s.io/v1
+kind: Role
+metadata:
+  name: cert-manager-hetzner:secret-reader
+  namespace: ix-cert-manager
+rules:
+- apiGroups:
+  - ""
+  resourceNames:
+  - hetzner-secret
+  resources:
+  - secrets
+  verbs:
+  - get
+  - watch
+
+---
+
+apiVersion: rbac.authorization.k8s.io/v1
+kind: RoleBinding
+metadata:
+  name: cert-manager-hetzner:secret-reader
+  namespace: ix-cert-manager
+roleRef:
+  apiGroup: rbac.authorization.k8s.io
+  kind: Role
+  name: cert-manager-hetzner:secret-reader
+subjects:
+- kind: ServiceAccount
+  name: cert-manager-hetzner-certmanagerwebhookhetzner
+  namespace: ix-cert-manager-hetzner
