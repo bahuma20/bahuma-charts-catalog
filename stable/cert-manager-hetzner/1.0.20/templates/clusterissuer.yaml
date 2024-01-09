@@ -18,7 +18,7 @@ spec:
     solvers:
       - dns01:
           webhook:
-            groupName: {{ .Values.cert-manager-webhook-hetzner.groupName }}
+            groupName: {{ .Values.certMmanagerWebhookHetzner.groupName }}
             solverName: hetzner
             config:
               secretName: hetzner-secret
