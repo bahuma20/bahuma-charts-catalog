@@ -6,7 +6,7 @@ hetzner:
 
 # Custom values
 cert-manager-webhook-hetzner:
-  groupName: "home.noitl.base"
+  groupName: "base.noitl.base"
   namespace: ix-cert-manager
   certManager:
     namespace: ix-cert-manager
