@@ -6,7 +6,7 @@ hetzner:
   apiKey: ""
 
 # Custom values
-certManagerWebhookHetzner:
+cert-manager-webhook-hetzner:
   namespace: ix-cert-manager
   certManager:
     namespace: ix-cert-manager
