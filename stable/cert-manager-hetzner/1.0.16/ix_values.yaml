@@ -6,10 +6,11 @@ hetzner:
   apiKey: ""
 
 # Custom values
-
-certManager:
+certManagerWebhookHetzner:
   namespace: ix-cert-manager
-  serviceAccountName: cert-manager-certmanager
+  certManager:
+    namespace: ix-cert-manager
+    serviceAccountName: cert-manager-certmanager
 
 namespace: ix-cert-manager
 
