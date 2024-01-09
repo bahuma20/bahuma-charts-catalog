@@ -1,7 +1,7 @@
 kubeVersion: ">=1.24.0-0"
 apiVersion: v2
 name: cert-manager-hetzner
-version: 1.0.22
+version: 1.0.23
 appVersion: 1.2.2
 description: Cluster issuer for cert-manager with Hetzner DNS
 home: https://github.com/bahuma20/bahuma-charts/tree/master/charts/cert-manager-hetzner
@@ -29,7 +29,7 @@ dependencies:
     version: 1.2.2
     repository: https://vadimkim.github.io/cert-manager-webhook-hetzner
     condition: ""
-    alias: "cert-manager-webhook-hetzner"
+    alias: "certmanagerwebhookhetzner"
     tags: []
     import-values: []
 annotations:

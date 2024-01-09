@@ -5,8 +5,8 @@ hetzner:
   apiKey: ""
 
 # Custom values
-cert-manager-webhook-hetzner:
-  groupName: "base.noitl.base"
+certmanagerwebhookhetzner:
+  groupName: ""
   namespace: ix-cert-manager
   certManager:
     namespace: ix-cert-manager
