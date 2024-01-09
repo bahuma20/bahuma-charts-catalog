@@ -43,7 +43,7 @@ questions:
           schema:
             type: boolean
             default: false
-  - variable: certManagerWebhookHetzner
+  - variable: certmanagerwebhookhetzner
     group: App Configuration
     label: Cert Manager Webhook Hetzner Configuration
     schema:
