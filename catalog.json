@@ -1,0 +1,37 @@
+{
+    "charts": {},
+    "test": {},
+    "stable": {
+        "cert-manager-hetzner": {
+            "app_readme": "<p>Cluster issuer for cert-manager with Hetzner DNS</p>\n<p>This App is supplied by TrueCharts, for more information visit the manual: <a href=\"https://truecharts.org/charts/stable/cert-manager-hetzner\">https://truecharts.org/charts/stable/cert-manager-hetzner</a></p>\n<hr />\n<p>TrueCharts can only exist due to the incredible effort of our staff.\nPlease consider making a <a href=\"https://truecharts.org/sponsor\">donation</a> or contributing back to the project any way you can!</p>",
+            "categories": [
+                "Other"
+            ],
+            "description": "Cluster issuer for cert-manager with Hetzner DNS",
+            "healthy": true,
+            "healthy_error": null,
+            "home": "https://github.com/bahuma20/bahuma-charts/tree/master/charts/cert-manager-hetzner",
+            "location": "/home/runner/work/bahuma-charts-catalog/bahuma-charts-catalog/stable/cert-manager-hetzner",
+            "latest_version": "1.2.0",
+            "latest_app_version": "1.2.2",
+            "latest_human_version": "1.2.2_1.2.0",
+            "last_update": "2024-01-09 11:24:04",
+            "name": "cert-manager-hetzner",
+            "recommended": false,
+            "title": "Cert-manager-hetzner",
+            "maintainers": [
+                {
+                    "name": "Max Bachhuber",
+                    "email": "max.bachhuber@bahuma.io",
+                    "url": "https://bahuma.io"
+                }
+            ],
+            "tags": [],
+            "screenshots": [],
+            "sources": [
+                "https://github.com/bahuma20/bahuma-charts/tree/master/charts/cert-manager-hetzner"
+            ],
+            "icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/acestream.png"
+        }
+    }
+}
